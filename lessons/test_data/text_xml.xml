@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<AirQualityReadings>
+ <Reading>
+  <sensor_id>3</sensor_id>
+  <timestamp>2024-03-11 20:27:52</timestamp>
+  <pm2_5>198.02</pm2_5>
+  <pm10>138.91</pm10>
+  <so2>481.66</so2>
+  <no2>10.09</no2>
+ </Reading>
+ <Reading>
+  <sensor_id>3</sensor_id>
+  <timestamp>2024-03-11 20:28:52</timestamp>
+  <pm2_5>200.02</pm2_5>
+  <pm10>139.91</pm10>
+  <so2>485.66</so2>
+  <no2>11.09</no2>
+ </Reading>
+ <Reading>
+  <sensor_id>3</sensor_id>
+  <timestamp>2024-03-11 20:28:52</timestamp>
+  <pm2_5>200.02</pm2_5>
+  <pm10>139.91</pm10>
+  <so2>485.66</so2>
+  <no2>11.09</no2>
+ </Reading>
+ <Reading>
+  <sensor_id>3</sensor_id>
+  <timestamp>2024-03-11 20:28:52</timestamp>
+  <pm2_5>200.02</pm2_5>
+  <pm10>139.91</pm10>
+  <so2>485.66</so2>
+  <no2>11.09</no2>
+ </Reading>
+ <Reading>
+  <sensor_id>3</sensor_id>
+  <timestamp>2024-03-11 20:28:52</timestamp>
+  <pm2_5>200.02</pm2_5>
+  <pm10>139.91</pm10>
+  <so2>485.66</so2>
+  <no2>11.09</no2>
+ </Reading>
+ <Reading>
+  <sensor_id>3</sensor_id>
+  <timestamp>2024-03-11 20:28:52</timestamp>
+  <pm2_5>200.02</pm2_5>
+  <pm10>139.91</pm10>
+  <so2>485.66</so2>
+  <no2>11.09</no2>
+ </Reading>
+ <Reading>
+  <sensor_id>3</sensor_id>
+  <timestamp>2024-03-11 20:28:52</timestamp>
+  <pm2_5>200.02</pm2_5>
+  <pm10>139.91</pm10>
+  <so2>485.66</so2>
+  <no2>11.09</no2>
+ </Reading>
+ <Reading>
+  <sensor_id>3</sensor_id>
+  <timestamp>2024-03-11 20:28:52</timestamp>
+  <pm2_5>200.02</pm2_5>
+  <pm10>139.91</pm10>
+  <so2>485.66</so2>
+  <no2>11.09</no2>
+ </Reading>
+ <Reading>
+  <sensor_id>3</sensor_id>
+  <timestamp>2024-03-11 20:28:52</timestamp>
+  <pm2_5>200.02</pm2_5>
+  <pm10>139.91</pm10>
+  <so2>485.66</so2>
+  <no2>11.09</no2>
+ </Reading>
+</AirQualityReadings>

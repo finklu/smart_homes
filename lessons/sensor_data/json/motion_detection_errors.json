@@ -1,0 +1,38 @@
+[
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-04-08T10:36:52.877363",
+        "motion_detected": null,
+        "day_of_week": "tuesday"
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-04-08T10:36:53.877909",
+        "motion_detected": false,
+        "day_of_week": "tuesday"
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-04-08T10:36:54.878919",
+        "motion_detected": false,
+        "day_of_week": "tuesday"
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-04-08T10:36:55.880131",
+        "motion_detected": false,
+        "day_of_week": "tuesday"
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-04-08T10:36:55.880131",
+        "motion_detected": false,
+        "day_of_week": "tuesday"
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-04-08T10:36:56.881586",
+        "motion_detected": true,
+        "day_of_week": "tuesday"
+    }
+]

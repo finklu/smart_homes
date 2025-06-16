@@ -1,0 +1,47 @@
+[
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-03-31T15:48:30.835776",
+        "motion_detected": true
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-03-31T15:48:30.936228",
+        "motion_detected": false
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-03-31T15:48:31.036727",
+        "motion_detected": true
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-03-31T15:48:31.137238",
+        "motion_detected": false
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-03-31T15:48:31.238227",
+        "motion_detected": true
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-03-31T15:48:31.339058",
+        "motion_detected": true
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-03-31T15:48:31.439647",
+        "motion_detected": true
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-03-31T15:48:31.540586",
+        "motion_detected": true
+    },
+    {
+        "sensor_id": 2,
+        "timestamp": "2025-03-31T15:48:31.741529",
+        "motion_detected": false
+    }
+]
