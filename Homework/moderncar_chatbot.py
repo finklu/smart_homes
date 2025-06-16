@@ -1,3 +1,4 @@
+# Import necessary libraries
 from dotenv import load_dotenv
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_core.prompts import ChatPromptTemplate
@@ -8,12 +9,12 @@ from langchain_ollama import ChatOllama
 import streamlit as st
 
 
-
+# This function initializes a MySQL database connection using credentials and returns a SQLDatabase object.
 def init_database(user: str, password: str, host: str, port: str, database: str) -> SQLDatabase:
     db_uri = f"mysql+mysqlconnector://{user}:{password}@{host}:{port}/{database}"
     return SQLDatabase.from_uri(db_uri)
 
-def get_sql_chain(db, model_name: str):
+def get_sql_chain(db, model_name: str):         # SQL prompt template (asks for SQL query only)
     template = """
     You are a data analyst at a company. You are interacting with a user who is asking you questions about the company's database.
     Based on the table schema below, write a SQL query that would answer the user's question. Take the conversation history into account.
@@ -41,6 +42,7 @@ def get_sql_chain(db, model_name: str):
     def get_schema(_):
         return db.get_table_info()
 
+    # Return a LangChain runnable pipeline
     return (
         RunnablePassthrough.assign(schema=get_schema)
         | prompt
@@ -92,7 +94,7 @@ with st.sidebar:
     st.subheader("Settings")
     st.write("Connect to your MySQL database and select the model to use.")
 
-    # Model selection
+    # Model selection / Allows the user to select a model for the chatbot.
     st.selectbox("Select Model", options=["gemma3", "qwen3:latest", "mistral"], key="Model")
 
     st.text_input("Host", value="localhost", key="Host")
@@ -113,7 +115,7 @@ with st.sidebar:
             st.session_state.db = db
             st.success("Connected to database!")
 
-# Chat display
+# Chat display / Displays the chat history in the Streamlit app.
 for message in st.session_state.chat_history:
     if isinstance(message, AIMessage):
         with st.chat_message("AI"):
@@ -122,7 +124,7 @@ for message in st.session_state.chat_history:
         with st.chat_message("Human"):
             st.markdown(message.content)
 
-# Chat input
+# Chat input /Handles user input: Saves the query to history Displays user and AI messages Gets a natural language response based on DB query + model
 user_query = st.chat_input("Type a message...")
 if user_query is not None and user_query.strip() != "":
     st.session_state.chat_history.append(HumanMessage(content=user_query))
